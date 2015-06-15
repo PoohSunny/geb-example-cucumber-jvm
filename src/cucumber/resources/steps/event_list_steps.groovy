@@ -12,11 +12,9 @@ import static cucumber.api.groovy.JA.*
 }
 
 もし(~/^表示されている一番上のイベントの情報をクリックする$/) { ->
-	// Write code here that turns the phrase above into concrete actions
-	throw new PendingException()
+	page.firstEventLink.click()
 }
 
 ならば(~/^イベントの詳細ページが表示される$/) { ->
-	// Write code here that turns the phrase above into concrete actions
-	throw new PendingException()
+	at OneEventPage
 }
