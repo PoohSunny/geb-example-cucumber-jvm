@@ -28,6 +28,6 @@ environments {
 
 }
 
-baseUrl = "http://gebish.org"
+baseUrl = "http://agilesamuraibasecamp.github.io/asbc2013-js/"
 
 baseNavigatorWaiting = true
