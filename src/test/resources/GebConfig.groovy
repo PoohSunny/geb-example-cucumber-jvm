@@ -28,6 +28,7 @@ environments {
 
 }
 
-baseUrl = "http://agilesamuraibasecamp.github.io/asbc2013-js/"
+// for local
+baseUrl = "http://localhost:63342/geb-example-cucumber-jvm/index.html"
 
 baseNavigatorWaiting = true
